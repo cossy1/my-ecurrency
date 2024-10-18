@@ -8,7 +8,7 @@ export default function MissionSection() {
             <div className="flex flex-col gap-7 max-w-[475px]">
                 <p className="text-[#12305B] text-4xl font-bold">Our Mission</p>
                 <p className="text-[#21384299] text-base">
-                    We started Sleepstiq with 1 simple goal: to be your best friend at bedtime. We, just like you, deal with stress, unease, and trouble sleeping from a number of silly things like school, work, screens, numbers, and people. Thats why we created products that aim to -
+                    We started Sleepstiq with 1 simple goal to be your best friend at bedtime. We, just like you, deal with stress, unease, and trouble sleeping from a number of silly things like school, work, screens, numbers, and people. Thats why we created products that aim to -
                 </p>
 
                 <ul>
