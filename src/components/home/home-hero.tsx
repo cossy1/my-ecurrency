@@ -15,7 +15,7 @@ export default function HomeHero() {
         >
 
             <div className="flex flex-col relative">
-                <div className="flex flex-col max-w-[581px] gap-4 text-[12305B]">
+                <div className="flex flex-col max-w-[581px] gap-4 text-[#12305B]">
                     <p className="text-lg">We&apos;re here to help you</p>
                     <p className="text-[60px] font-bold">Relax & Rest</p>
                     <p className="text-base">With the aid of our Melatonin Sleepstiq, we can assure you that you can get quality sleep.</p>

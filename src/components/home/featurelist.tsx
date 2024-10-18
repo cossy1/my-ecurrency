@@ -5,7 +5,7 @@ interface FeatureItem {
     text: string;
 }
 
-const FeatureList: React.FC = () => {
+const FeatureList = ({ noBg }: { noBg?: boolean }) => {
     const features: FeatureItem[] = [
         { icon: "😊", text: "Promotes calm and relaxation." },
         { icon: "💤", text: "Inhalation allows for a rapid effect." },
@@ -14,7 +14,7 @@ const FeatureList: React.FC = () => {
     ];
 
     return (
-        <div className="bg-white rounded-lg shadow-md px-5 lg:px-[30px] py-3 lg:py-6 max-w-[453px] mx-auto">
+        <div className={`${noBg ? "bg-transparent" : "bg-white rounded-lg shadow-md mx-auto px-5 lg:px-[30px]"} py-3 lg:py-6 max-w-[453px] `}>
             <ul>
                 {features.map((feature, index) => (
                     <li key={index} className="flex items-start">

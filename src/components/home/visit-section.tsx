@@ -1,8 +1,10 @@
 'use client';
 
+import { useRouter } from "next/navigation";
 import AppButton from "../button/appButton";
 
 export default function VisitSection() {
+    const router = useRouter();
     return (
         <>
             <div className="flex justify-center items-center flex-col gap-7 max-w-[90%] lg:max-w-[70%] mx-auto">
@@ -13,11 +15,11 @@ export default function VisitSection() {
                     essential oil mist will mellow you out, quiet the mind, and lull you to
                     bed.{" "}
                 </p>
-                <AppButton label="Visit Shop" onClick={() => { }} className="w-[225px]" />
+                <AppButton label="Visit Shop" onClick={() => router.push('/shop')} className="w-[225px]" />
 
 
             </div>
-         
+
         </>
 
     );
