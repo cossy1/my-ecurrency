@@ -1,18 +1,18 @@
 import React from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 
 interface TestimonialCardProps {
   quote: string;
   name: string;
   title: string;
-  imageUrl: any;
+  imageUrl: StaticImageData;
 }
 
 export const TestimonialCard: React.FC<TestimonialCardProps> = ({ quote, name, title, imageUrl }) => {
   return (
     <div className="bg-[#FBF9F2] p-6 xl:p-10 max-w-[474px]">
       <p className="text-[#4D533C] italic mb-16 text-xl lg:text-2xl">
-        "{quote}"
+        `&quot;{quote}`
       </p>
       <div className="flex items-center gap-9">
         <Image src={imageUrl} alt={name} height={84} width={84} className="w-[84px] h-[84px] rounded-full mr-4 object-contain" />

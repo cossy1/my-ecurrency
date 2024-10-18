@@ -4,9 +4,10 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import { ProductReviewCard } from '../cards/product-review-card';
+import { StaticImageData } from 'next/image';
 
 interface IProductReviewCarouselProps {
-    data: { author: string, description: string, image: any }[];
+    data: { author: string, description: string, image: StaticImageData }[];
 }
 
 const ProductReviewCarousel: React.FC<IProductReviewCarouselProps> = ({

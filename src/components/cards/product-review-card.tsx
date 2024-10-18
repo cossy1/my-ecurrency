@@ -1,10 +1,10 @@
 import React from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import Ratings from "/public/svg/stars.svg"
 import { truncateString } from '@/helpers/string';
 
 interface ProductReviewCardProps {
-    image: any;
+    image: StaticImageData;
     description: string;
     author: string;
 }
