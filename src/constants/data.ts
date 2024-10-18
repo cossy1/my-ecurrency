@@ -1,5 +1,5 @@
 import Bloomberg from "/public/svg/bloomberg.svg";
-import SleepReview from "/public/svg/sleep-review-logo.svg";
+import SleepReview from "/public/svg/Sleep-review-logo.svg";
 import Google from "/public/svg/google-logo.svg";
 import Forbes from "/public/svg/forbes-logo.svg";
 import Influence from "/public/svg/influence-logo.svg";
