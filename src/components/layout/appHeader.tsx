@@ -37,7 +37,7 @@ const AppHeader: React.FC = () => {
                             <Link
                                 key={index}
                                 href={item.link}
-                                className={`${pathname === item.link ? "font-black" : "font-normal"} text-[#12305B] inline-flex items-center px-1 pt-1 text-sm font-medium`}
+                                className={`${pathname === item.link ? "font-black" : "font-normal"} text-[#12305B] inline-flex items-center px-1 pt-1 text-sm`}
                             >
                                 {item.label}
                             </Link>
