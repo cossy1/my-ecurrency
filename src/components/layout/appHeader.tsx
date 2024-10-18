@@ -23,13 +23,15 @@ const AppHeader: React.FC = () => {
                 <div className="flex justify-between sm:justify-start space-x-[170px] h-16">
 
                     <div className="flex-shrink-0 flex items-center">
-                        <Image
-                            src={AppLogo}
-                            alt=""
-                            height={62}
-                            width={92}
-                            className="object-contain"
-                        />
+                        <Link href='/'>
+                            <Image
+                                src={AppLogo}
+                                alt=""
+                                height={62}
+                                width={92}
+                                className="object-contain"
+                            />
+                        </Link>
                     </div>
 
                     <div className="hidden sm:ml-6 sm:flex sm:space-x-16">
