@@ -12,7 +12,7 @@ export const CommentCard: React.FC<CommentCardProps> = ({ author, title }) => {
     return (
         <div className="bg-[#FBF9F2] pt-[22px] pl-[30px] pb-8 pr-2 xl:p-10">
             <p className="text-[#4D533C] italic mb-6 text-base">
-                {truncateString(title, 60)}
+                {truncateString(title, 68)}
             </p>
             <h3 className="font-bold text-base text-[#4D533C]">{author}</h3>
 

@@ -4,8 +4,10 @@ import Shop from "/public/png/shop.png";
 import Image from "next/image";
 import FeatureList from "./featurelist";
 import AppButton from "../button/appButton";
+import { useRouter } from "next/navigation";
 
 export default function ShopSection() {
+    const router = useRouter();
     return (
         <div className="mx-auto grid grid-cols-1 xl:grid-cols-2 mt-20 gap-16 lg:gap-[160px] lg:mb-[152px]">
             <div className="relative">
@@ -25,7 +27,8 @@ export default function ShopSection() {
                     and lull you to bed.
                 </p>
 
-                <AppButton label="Visit Shop" onClick={() => { }} className="max-w-[225px]" />
+
+                <AppButton label="Visit Shop" onClick={() => router.push('/shop')} className="max-w-[225px]" />
             </div>
         </div>
     );
