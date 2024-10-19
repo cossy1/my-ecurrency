@@ -5,7 +5,7 @@ export const NAVITEMS = [
     },
     {
         label: "About",
-        link: "/about"
+        link: "/"
     },
     {
         label: "Shop",
