@@ -21,12 +21,12 @@ const FAQAccordion = () => {
     ];
 
     return (
-        <div className='flex gap-[114px]'>
+        <div className='flex gap-16 xl:gap-[114px] flex-wrap'>
 
-            <div className='flex flex-col gap-10 text-lg mt-2'>
-                <p className='text-[#12305B] font-bold'>Sleepstiq Product</p>
-                <p className='text-[#12305B]'>Order</p>
-                <p className='text-[#12305B]'>Melantolin</p>
+            <div className='flex flex-col xl:gap-10 gap-5 text-lg mt-2'>
+                <p className='text-[#12305B] font-bold cursor-pointer'>Sleepstiq Product</p>
+                <p className='text-[#12305B] cursor-pointer'>Order</p>
+                <p className='text-[#12305B] cursor-pointer'>Melantolin</p>
 
             </div>
 

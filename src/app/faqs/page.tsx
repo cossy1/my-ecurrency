@@ -5,7 +5,7 @@ export default function FaqPage() {
     return (
         <>
             <FaqHero />
-            <div className="lg:pl-[150px] mt-[71px] pl-6 mb-20 lg:mb-[225px]">
+            <div className="lg:pl-[150px] mt-16 lg:mt-[71px] pl-6 mb-20 lg:mb-[225px]">
                 <FAQAccordion />
             </div>
         </>

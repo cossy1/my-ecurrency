@@ -20,7 +20,7 @@ const Accordion: React.FC<AccordionProps> = ({
         className={`border-b ${borderTop ? "border-t" : ""} border-gray-200 py-4`}
     >
         <button
-            className="flex justify-between items-center w-full text-left"
+            className="flex flex-grow justify-between items-center w-full md:w-[660px] xl:w-[672px] text-left"
             onClick={onClick}
         >
             <span className="text-lg font-medium">{question}</span>
