@@ -8,7 +8,7 @@ export default function ShopHero() {
     >
       <div className="flex  pb-[290px] flex-col max-w-[581px] gap-4 text-[#12305B]">
         <p className="text-lg">We&apos;re here to help you</p>
-        <p className="text-[60px] font-bold">Relax & Rest</p>
+        <p className="lg:text-[60px] text-4xl font-bold">Relax & Rest</p>
       </div>
     </div>
   );

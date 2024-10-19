@@ -18,7 +18,7 @@ const AppHeader: React.FC = () => {
     const pathname = usePathname();
 
     return (
-        <nav className="bg-white">
+        <nav className="bg-transparent">
             <div className="max-w-7xl mx-auto lg:mx-0 px-4 sm:px-6 lg:pl-[150px] lg:pr-8">
                 <div className="flex justify-between sm:justify-start space-x-[170px] h-16">
 
